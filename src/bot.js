@@ -113,7 +113,7 @@ function handleInit(session) {
     .then((user) => {
       bot.dbStore.fetchval("SELECT COUNT(*) FROM registered_users where registered = TRUE AND (ban_release_date IS NULL OR ban_release_date < (now() AT TIME ZONE 'utc'))").then((count) => {
         // :wave:
-        let msg = `\uD83D\uDC4B Welcome to Group chat bot!\nThere are currently ${count} users chatting`;
+        let msg = `\uD83D\uDC4B Welcome to Group chat prime!\nThere are currently ${count} users chatting`;
         let controls;
         if (user == null || user.registered == false) {
           controls = UNREGISTERED_CONTROLS;
