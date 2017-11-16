@@ -43,9 +43,7 @@ bot.onReady = () => {
 const FAQ = {
   'faq:about': {
     label: 'About',
-    message: `Group chat is a bot that emulates a group chat on the Toshi platform by forwarding any messages it receives to all the users who have joined the chat.
-
-This was simply built as a fun experiment to provide a place for people using Toshi to engage with other people while the community is growing.`
+    message: `This is a clone of the normal group chat, but should be maybe more focused, not so Eternal September`
   },
   'faq:rooms': {
     label: "Can I have a private group chat?",
@@ -66,7 +64,7 @@ Alternatively you can make the change yourself and send a Pull Request on github
   },
   'faq:who': {
     label: "Who's the idiot who made this?",
-    message: "@tristan \uD83D\uDE05 \uD83D\uDE05 \uD83D\uDE05" // :sweat_smile: :sweat_smile: :sweat_smile:
+    message: "@tristan made the bot, @bendricklamar forked it" // :sweat_smile: :sweat_smile: :sweat_smile:
   }
 };
 
